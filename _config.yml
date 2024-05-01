@@ -1,23 +1,23 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            MCBBS论坛页面归档列表
+longtitle:        拯救MCBBS：论坛页面归档列表
+author:           dimo with luoyunlingyu-org
+email:            git@github.com
 description: >
-  Build Jekyll site with the GitBook style.
+  MCBBS论坛页面归档
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://luoyunlingyu-mcbbs.github.io'
+baseurl:          '/mcbbs-jekyll'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
 
 toc:
-  enabled: true
+  enabled: false
   h_min: 1
   h_max: 3
 
@@ -41,7 +41,7 @@ syntax_highlighter_style: colorful
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:                /:categories/:year-:month-:day-:title:output_ext
+permalink:                /:title:output_ext
 
 # Disqus comments
 # disqushandler:            sighingnow
